@@ -1,0 +1,11 @@
+---
+  - name: Install and configure python3 for VM's
+    hosts: webservers
+    become: true
+    tasks:
+
+    - name: Install pip3
+      apt:
+        update_cache: yes
+        name: python3-pip
+        state: present

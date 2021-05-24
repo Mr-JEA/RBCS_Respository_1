@@ -1,0 +1,16 @@
+---
+  - name: Configure VM with Docker.io
+    hosts: webservers
+    become: true
+    tasks:
+
+    - name: Un-install apache2 on websurvers
+      apt:
+        name: apache2
+        state: absent
+
+    - name: Install docker.io on webservers
+      apt:
+        update_cache: yes
+        name: docker.io
+        state: present
