@@ -6,7 +6,7 @@
 
 <br>(NOTE: The most recent version of the above image is stored in the image folder)  
 <br>These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the (BEATS and/or YAML) file may be used to install only certain pieces of it, such as Filebeat.  
-<br>*TODO: Enter the playbook file.  
+<br>*05_install-elk is located in the Ansible folder 
 <br>This document contains the following details:  
 <br>*Description of the Topologu  
 <br>*Access Policies  
@@ -30,12 +30,14 @@
 <br>⋅⋅-Like FileBeat, MetricBeat searches for and collects data.  The difference is that MetricBeat collects metric data from the machines OS.    
 <br>The configuration details of each machine may be found below. Note: Use the Markdown Table Generator to add/remove values from the table.  
 <br>
+
 |     Machine Name     | Function | IP Address |   OS  |
 |:--------------------:|:--------:|:----------:|:-----:|
 | Jump-Box-Provisioner |  Gateway |  10.0.0.4  | Linux |
 |         Web-1        |  Server  |  10.0.0.5  | Linux |
 |         Web-2        |  Server  |  10.0.0.7  | Linux |
 |      ELK-Server      |  Server  |  10.4.0.1  | Linux |
+
 <br>
 <br>
 #Access Policies  
@@ -52,6 +54,7 @@
 <br>⋅⋅-Note: The Gateway Machine is the only medium, within the network, that can gain remote access to the other three machines (Web-1, Web-2, ELK-Server)  
 <br>A summary of the access policies in place can be found in the table below.  
 <br>
+
 |     Machine Name     | Publicly Accessible | Allowed IP Address |   OS  |
 |:--------------------:|:-------------------:|:------------------:|:-----:|
 | Jump-Box-Provisioner |         Yes         |   52.149.219.228   | Linux |
