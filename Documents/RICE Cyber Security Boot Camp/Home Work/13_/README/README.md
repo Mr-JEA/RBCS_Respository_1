@@ -109,7 +109,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 <br>*Run the playbook, and navigate to (Kibana) to check that the installation worked as expected.  
 <BR>
 [Example of Kibana working:](https://github.com/Mr-JEA/RBCS_Respository_1/blob/master/Documents/RICE%20Cyber%20Security%20Boot%20Camp/Home%20Work/13_/README/Images/filebeat_Kibana_VerifyIncomingData.png)  
- 
+<br> 
 
 <br>
 Answer the following questions to fill in the blanks:  
