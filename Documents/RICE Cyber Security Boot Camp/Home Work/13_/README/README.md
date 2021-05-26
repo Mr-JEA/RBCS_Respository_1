@@ -2,8 +2,10 @@
 <br>
 <br>The files in this repository were used to configure the network depicted below.  
 <br>(NOTE: The Jump-Box private IP is actually 10.0.0.4)  
+<br>
+<br>
 [Azure Network Diagram](https://github.com/Mr-JEA/RBCS_Respository_1/blob/master/Documents/RICE%20Cyber%20Security%20Boot%20Camp/Home%20Work/13_/README/Images/Azure_Network_Topology_Diagram.png)  
-
+<br>
 <br>(NOTE: The most recent version of the above image is stored in the image folder)  
 <br>These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the (BEATS and/or YAML) file may be used to install only certain pieces of it, such as Filebeat.  
 <br>*05_install-elk is located in the Ansible folder 
@@ -108,6 +110,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 <br>*Update the (hosts) file to include (host IP under the correct webservers group).  
 <br>*Run the playbook, and navigate to (Kibana) to check that the installation worked as expected.  
 <BR>
+<br>
 [Example of Kibana working:](https://github.com/Mr-JEA/RBCS_Respository_1/blob/master/Documents/RICE%20Cyber%20Security%20Boot%20Camp/Home%20Work/13_/README/Images/filebeat_Kibana_VerifyIncomingData.png)  
 <br> 
 
