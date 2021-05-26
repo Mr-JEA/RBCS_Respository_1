@@ -63,6 +63,9 @@ root@c7ff0435deda:/etc/ansible/roles# cd ..
 root@c7ff0435deda:/etc/ansible# ls
 01_my-playbook.yml  03_python3_pip.yml  05_install-elk.yml  Scripts      filebeat-config.yml  roles
 02_dockerio.yml     04_pip.yml          Files               ansible.cfg  hosts
+
+
+
 root@c7ff0435deda:/etc/ansible# cat filebeat-config.yml
 ######################## Filebeat Configuration ############################
 # This file is a full configuration example documenting all non-deprecated
